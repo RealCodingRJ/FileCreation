@@ -10,6 +10,8 @@
 
             var fileName = Console.ReadLine();
 
+            if (fileName == null) return;
+
             Task task = new(() =>
             {
 
